@@ -28,11 +28,22 @@
         <section class="headerSection">
             <div class="sectionHeader">
                 <div class="name"><p>Viktor Mukha</p></div>
-                <dialog>
-                    <p>Have a nice day ;)</p>
-                    <button class="button2" id="close">Закрити</button>
-                </dialog>
-                <button class="button" id="show">Click me pleaseeee!</button>
+                <button class="modal__button" id="open-modal">
+                    Click me pleaseeee!
+                </button>
+
+                <div class="modal__container" id="modal-container">
+                    <div class="modal__content">
+                        <div class="modal__close close-modal" title="Close">
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <h1 class="modal__title">Have a nice day!</h1>
+                        <p class="modal__description">Click the button to close</p>
+                        <button class="modal__button-link close-modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
                 <h2>Professional goals</h2>
                 <p>I aim to get the possibility to join the IntelliStart Front-end (React)
                 program.I consider myself a highly motivated person and a responsible
@@ -62,6 +73,7 @@
                 <ul>
                     <li>Department of Computer Science</li>
                 </ul>
+
                 <p class="greenDataItems2">Oktenweb  </p>
                 <h3>''Front-end'' course </h3>
                 <ul>
