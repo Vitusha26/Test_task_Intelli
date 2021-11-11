@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 234px;
+}
+
+.logo {
+    width: 100%;
+    background: white;
+    box-shadow: 0 -200px 100px -120px red inset;
+    border-radius: 30px;
+    animation: background 3s infinite alternate;
+    position: absolute;
+}
+
+@keyframes background {
+    50% {
+        background: #41918e;
+        box-shadow: 0 -200px 100px -100px white inset;
+    }
+}
+
+.logoH1 {
+    text-align: center;
+    font-size: 100px;
+    line-height:100px;
+    color: black;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.aside{
+    width: 35%;
+    height: 100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.asideHr{
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.asideH1{
+    font-size: 42px;
+    color: red;
+    padding-bottom: 100px;
+}
+
+.greenData{
+    font-weight: bold;
+    font-size: 35px;
+    color: #41918e;
+    margin: 0;
+}
+
+.blackData{
+    font-weight: bold;
+    font-size: 22px;
+    color: #596070;
+    margin:0;
+}
+
+.aside p:first-child{
+    margin-top: 50px;
+}
+
+.headerSection{
+    margin-left: 73px
+}
+
+.sectionHeader{
+    width: 100%;
+}
+
+.sectionHeader p:first-child{
+    font-size: 45px;
+    margin:20px 0 35px 0;
+    color: #41918e;
+    text-align: center;
+}
+.sectionHeader p{
+    font-size: 30px;
+    text-align: justify;
+    color: #7d7f7e;
+    font-family: Gabriola;
+    margin-bottom: 9px;
+}
+.sectionHeader p:first-child{
+    color: red;
+    font-family: Cambria;
+}
+
+h2{
+    color: #35363a;
+    font-size: 42px;
+}
+.sectionHeaderHr{
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.greenDataItems{
+    font-weight: bold;
+    font-size: 35px;
+    color: #41918e;
+    margin: 60px 0 0 0;
+}
+.greenDataItems2{
+    font-weight: bold;
+    font-size: 35px;
+    color: #41918e;
+    margin: 20px 0 0 0;
+}
+h3{
+    font-size: 25px;
+    margin-top: 6px;
+}
+ul{
+    font-size: 23px;
+    color: #7d7f7e;
+    font-family: Gabriola;
+}
+
+.bar{
+    background: black;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow:hidden ;
+    box-shadow: 0 0 10px red;
+}
+
+.bar span{
+    height: 5px;
+    float: left;
+    background: red;
+}
+.html{
+    width: 50%;
+}
+.css{
+    width:50%;
+}
+.js{
+    width: 30%;
+}
+.html2{
+    width: 90%;
+}
+.css2{
+    width:75%;
+}
+.js2{
+    width: 60%;
+}
+.react{
+    width: 25%;
+}
+
+li{
+    padding-top: 5px;
+}
+.skillAndSpoken{
+    display: flex;
+    width: 100%;
+}
+.skills{
+    width: 50%;
+
+}
+.spoken{
+    width: 50%;
+}
+
+.spoken h2{
+    text-align: center;
+}
+.spoken p{
+
+    padding-left: 34px;
+    font-size: 20px;
+}
+
+
+.sectionHeaderHr2{
+    margin: 30px 0 0 0;
+    border: 2px solid black;
+}
+
+.sectionHeaderHr3{
+    border: 2px solid black;
+    margin: 0;
+}
+.logoImg{
+    width: 100px;
+    height: 100px;
+}
+.name{
+    width: 33%;
+    background: black;
+    border-radius:30px
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: white;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 -200px 100px -120px red inset;
+    animation: background 3s infinite alternate;
+    position: absolute;
+    margin-top: 40px;
+}
+
+
+dialog{
+    border-radius: 20px;
+    background: yellow;
+}
+
+.button{
+    width: 33%;
+    height: 70px;
+    border-radius: 30px;
+    box-shadow: 0 -200px 100px -120px pink inset;
+    animation: background 3s infinite alternate;
+    font-size: 20px
+}
+.button2{
+    width: 30%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px
+}
+
+
+@media (min-width: 360px) and (max-width: 1024px){
+    .name{
+        width: 100%;
+    }
+    .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .skills h2{
+        text-align: center;
+    }
+    .button{
+        width: 100%;
+    }
+}
